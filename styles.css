@@ -1,3 +1,5 @@
+
+
 body{
 
 justify-content: center;
@@ -13,7 +15,7 @@ a{
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 34px;
 	overflow: hidden;
 	transition: 0.2s;
 }
@@ -62,7 +64,7 @@ box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   padding: 10px;
   margin: 20px;
   text-decoration: none;
-  font-size: 25px; 
+  font-size: 20px; 
   line-height: 25px;
   border-radius: 4px;
 
@@ -84,7 +86,8 @@ box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
     float: none;
     display: block;
     text-align: center;
-	  font-size: 45px;
+    padding: 50px;
+    font-size: 60px;
 
 
   }
