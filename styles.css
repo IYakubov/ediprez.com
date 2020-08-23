@@ -88,8 +88,9 @@ box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
     text-align: center;
     padding: 50px;
     font-size: 50px;
-
-
+  }
+	  .yoyo{
+  	font-size: 45px;
   }
   
   #header-right {
