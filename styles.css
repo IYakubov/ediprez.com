@@ -2,7 +2,7 @@ body{
 
 justify-content: center;
 min-height: 100vh;
-background: #031321;
+background: #031329;
 font-family: Consolas;
 }
 #fpage{
@@ -139,6 +139,7 @@ transition-delay: 0.2s;
   font-size: 20px; 
   line-height: 25px;
   border-radius: 4px;
+  font-family: Andika;
 
 
 }
@@ -154,6 +155,8 @@ box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   color: white;
 }
 @media screen and (max-width: 1200px) {
+
+
   #header a {
     float: none;
     display: block;
@@ -219,47 +222,38 @@ nav
 	width: 500%;
 	margin: 0;
 	left: 0;
-	animation: 25s slidy  infinite;
+	animation: 20s slidy  infinite;
 }
 @keyframes slidy{
 
 0%{
 	left: 0%;
 }
-10%{
+11%{
 	left: 0%
 }
-18%{
+22%{
 	left: -100%;
 }
-26%{
+33%{
 	left: -100%;
 }
-34%{
+44%{
 	left: -200%;
 }
-42%{
+55%{
 	left: -200%;
-}
-50%{
-	left: -300%;
-}
-58%{
-	left: -300%;
 }
 66%{
 	left: -200%;
 }
-74%{
-	left: -200%;
-}
-82%{
+77%{
 	left: -100%;
 }
-90%{
+88%{
 	left: -100%;
 }
-98%{
+99%{
 	left: 0%;
 }
 }
@@ -297,4 +291,113 @@ text-decoration: none;
 	color: white;
 	font-size: 50px;
 	padding-top: 250px;
+}
+#hahah{
+	font-family: Consolas;
+	color: white;
+	font-size: 30px;
+}
+ul li{
+	color: white;
+	font-size: 20px;
+	font-family: Andika;
+	list-style: none;
+}
+
+#betqo{
+	width: 80%;
+	height: 80%;
+
+}
+#lalaa{
+	font-family: Andika;
+
+}
+
+
+.yoyol{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 20px;
+	overflow: hidden;
+	transition: 0.2s;
+	border-radius: 50px;
+}
+.yoyol:hover{
+	color: #255784;
+background: #2196f3;
+box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+transition-delay: 0.2s;
+}
+.yoyol span{
+	position: absolute;
+	display: block;
+}
+.yoyol span:nth-child(1)
+{
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg,transparent, #2196f3);
+}
+.yoyol:hover span:nth-child(1)
+{
+	left: 100%;
+	transition: 0.5s;
+}
+.yoyol span:nth-child(3)
+{
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg,transparent, #2196f3);
+}
+.yoyol:hover span:nth-child(3)
+{
+	right: 100%;
+	transition: 0.5s;
+
+}
+.yoyol span:nth-child(2)
+{
+	top: -100%;
+	right: -0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg,transparent, #2196f3);
+}
+.yoyol:hover span:nth-child(2)
+{
+	top: 100%;
+	transition: 0.5s;
+	
+}
+
+
+.yoyol span:nth-child(4)
+{
+	bottom: -100%;
+	left: -0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg,transparent, #2196f3);
+}
+.yoyol:hover span:nth-child(4)
+{
+	bottom: 100%;
+	transition: 0.5s;
+	
+}
+#birbale{
+	margin-left: 1080px;
+	margin-top: -340px;
+	height: 100%;
+	width: 100%;
 }
