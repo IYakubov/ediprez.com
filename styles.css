@@ -156,9 +156,12 @@ box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 @media screen and (max-width: 1200px) {
 
-  #header{
-	  position: static;
-	}
+#lol{
+	align-items: center;
+}
+#header{
+position: static;
+}
   #header a {
     float: none;
     display: block;
@@ -276,6 +279,10 @@ nav
 #lol{
 	float: right;
 	text-decoration: none;
+	border:dashed;
+	padding: 55px;
+	border-width: 1px;
+	border-color: white;
 }
 #haha{
 	font-family: Andika;
